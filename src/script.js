@@ -19,11 +19,9 @@ console.log("Sum of non-negative numbers: " + sumNonNegative);
 
 /* Task2. In current array find the smallest number and its index*/
 
-// Initialize variables to store minimum number and its index
 let min = numbers[0];
 let minIndex = 0;
 
-// Iterate through the array starting from index 1
 for (let i = 1; i < numbers.length; i++) {
     if (numbers[i] < min) {
         min = numbers[i];
